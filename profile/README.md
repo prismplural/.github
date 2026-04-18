@@ -10,14 +10,6 @@ Prism helps plural systems track fronting, chat between members, log sleep, buil
 
 **[prism-sync](https://github.com/prismplural/prism-sync)** — the Rust sync engine and relay server. Field-level CRDTs with Hybrid Logical Clocks, end-to-end encryption with post-quantum hybrid signatures, and a self-hostable relay that only ever sees encrypted blobs. Used by the app via Dart FFI bindings, but it's designed as a standalone library — you can build other apps on it.
 
-## Who we are
-
-Prism is built by a plural system that actually uses it every day.
-
-It started from lived experience. Other apps we tried seemed to assume one kind of user: someone with the time, energy, vision, memory, and dexterity to keep up with a dense interface every day. That leaves younger, older, or disabled system members behind, and it made it harder for us to build the habit of actually using them. So we made the app we wanted.
-
-We use Claude extensively as a coding tool. The security architecture, design decisions, and the feel of the app are ours. The encryption is fully auditable and open source regardless of what tools wrote it.
-
 ## Why it's built this way
 
 **Your data lives on your devices.** Prism is local-first. The relay is a delivery mechanism for sync, not a home for your data. Plural system data is deeply personal — who's fronting, what members say to each other, sleep patterns, habits. It shouldn't live on someone else's infrastructure by default.
@@ -31,6 +23,13 @@ We use Claude extensively as a coding tool. The security architecture, design de
 **No behavioral analytics.** No third-party SDKs, no ad networks, no per-screen engagement tracking. We are not interested in optimizing retention curves.
 
 **Open source, end to end.** The app, the sync engine, and the relay server. Audit the code, verify the claims, or self-host the whole thing. "Trust us" is not a security model.
+
+Prism is built by a plural system that actually uses it every day.
+
+It started from lived experience. Other apps we tried seemed to assume one kind of user: someone with the time, energy, vision, memory, and dexterity to keep up with a dense interface every day. That leaves younger, older, or disabled system members behind, and it made it harder for us to build the habit of actually using them. So we made the app we wanted.
+
+We use Claude extensively as a coding tool. The security architecture, design decisions, and the feel of the app are ours. The encryption is fully auditable and open source regardless of what tools wrote it.
+
 
 ## Links
 
