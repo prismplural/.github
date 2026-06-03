@@ -37,7 +37,6 @@ We use Claude extensively as a coding tool. The security architecture, design de
 - **Docs** — [prismplural.com/docs](https://prismplural.com/docs/)
 - **How the encryption works** — [prismplural.com/encryption](https://prismplural.com/encryption/)
 - **About** — [prismplural.com/about](https://prismplural.com/about/)
-- **Beta access** — [get@prismplural.com](mailto:get@prismplural.com)
 - **Contact** — [hello@prismplural.com](mailto:hello@prismplural.com)
 
 If you find a security issue, please email us directly instead of opening a public issue.
