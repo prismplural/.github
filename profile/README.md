@@ -6,7 +6,7 @@ Prism helps plural systems track fronting, chat between members, log sleep, buil
 
 ## The repos
 
-**[prism-app](https://github.com/prismplural/prism-app)** — the Flutter client for iOS, Android, macOS, and web. This is what you install. It handles the UI, local encrypted database, and all the features: members, fronting, chat, polls, habits, sleep, notes, groups, custom fields, Simply Plural import, PluralKit sync.
+**[prism-app](https://github.com/prismplural/prism-app)** — the Flutter client for iOS, Android, macOS, Windows, and Linux. This is what you install. It handles the UI, local encrypted database, and all the features: members, fronting, chat, polls, habits, sleep, notes, groups, custom fields, Simply Plural import, PluralKit sync.
 
 **[prism-sync](https://github.com/prismplural/prism-sync)** — the Rust sync engine and relay server. Field-level CRDTs with Hybrid Logical Clocks, end-to-end encryption with post-quantum hybrid signatures, and a self-hostable relay that only ever sees encrypted blobs. Used by the app via Dart FFI bindings, but it's designed as a standalone library — you can build other apps on it.
 
